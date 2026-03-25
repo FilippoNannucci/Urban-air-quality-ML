@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 3264918,
+      "name": "Porta Venezia",
+      "locality": null,
+      "timezone": "Europe/Rome",
+      "country": {
+        "id": 91,
+        "code": "IT",
+        "name": "Italy"
+      },
+      "owner": {
+        "id": 11244,
+        "name": "AA"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 11287566,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 11287574,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 11287563,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 11287565,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 11287559,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 11287570,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 45.47819223410367,
+        "longitude": 9.208740684011786
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AA",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        9.208740684011786,
+        45.47819223410367,
+        9.208740684011786,
+        45.47819223410367
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2024-11-13T08:00:00Z",
+        "local": "2024-11-13T09:00:00+01:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-03-24T16:00:00Z",
+        "local": "2026-03-24T17:00:00+01:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 154,
+      "name": "London Marylebone Road",
+      "locality": "London",
+      "timezone": "Europe/London",
+      "country": {
+        "id": 79,
+        "code": "GB",
+        "name": "United Kingdom"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 169,
+        "name": "DEFRA"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 1304850,
+          "name": "co \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "CO mass"
+          }
+        },
+        {
+          "id": 241,
+          "name": "no2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "NO\u2082 mass"
+          }
+        },
+        {
+          "id": 243,
+          "name": "o3 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "O\u2083 mass"
+          }
+        },
+        {
+          "id": 245,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 246,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 4957,
+          "name": "so2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "SO\u2082 mass"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 51.52253,
+        "longitude": -0.154611
+      },
+      "licenses": [
+        {
+          "id": 34,
+          "name": "UK OGL \"Open Government License\"",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -0.154611,
+        51.52253,
+        -0.154611,
+        51.52253
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-30T01:00:00Z"
+      },
+      "datetimeLast": {
+        "utc": "2026-03-25T15:00:00Z",
+        "local": "2026-03-25T15:00:00Z"
+      }
+    }
+  ]
+}

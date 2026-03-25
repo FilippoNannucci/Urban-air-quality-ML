@@ -1,0 +1,6 @@
+.env
+rest_api.ipynb
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
